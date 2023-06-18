@@ -168,18 +168,7 @@ body {
   background-color: var(--Pressed-state-cl);
   color: var(--White-background-cl);
 }
-/*footer stylse*/
-.footer {
-  background-color: var(--Dark-cl);
-}
 
-.footer-logo-accent {
-  color: var(--Light-cl);
-}
-
-.footer-text {
-  color: #f4f4fd;
-}
 /*Portfolio photo*/
 .portfolio-list {
 }
@@ -198,4 +187,16 @@ body {
 }
 .portfolio-text {
   color: var(--Text-cl);
+}
+/*footer stylse*/
+.footer {
+  background-color: var(--Dark-cl);
+}
+
+.footer-logo-accent {
+  color: var(--Light-cl);
+}
+
+.footer-text {
+  color: #f4f4fd;
 }
