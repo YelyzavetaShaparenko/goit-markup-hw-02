@@ -141,7 +141,7 @@ body {
   color: var(--Text-cl);
 }
 
-/*portfolio page buttons*/
+/*main styles*/
 .main {
   background-color: var(--White-background-cl);
 }
@@ -153,6 +153,7 @@ body {
 }
 .portfolio-filter-item {
 }
+/*portfolio page buttons*/
 .portfolio-btn {
   font-weight: 500;
   font-size: 16px;
@@ -182,14 +183,12 @@ body {
 /*Portfolio photo*/
 .portfolio-list {
 }
-.list {
-}
+
 .portfolio-list-item {
 }
 .portfolio-link {
 }
-.link {
-}
+
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
