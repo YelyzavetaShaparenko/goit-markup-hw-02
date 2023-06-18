@@ -20,10 +20,11 @@ body {
   background-color: #ffffff;
 }
 .logo,
+.footer-logo-accent,
 .logo-accent {
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -98,13 +99,42 @@ body {
   color: #2e2f42;
 }
 
+/*Section Our Team styles*/
+
 .team-saction {
   background-color: #f4f4fd;
 }
 
 .team-title {
   font-size: 36px;
-  line-height: 0.9;
+  line-height: 1.1;
   text-transform: capitalize;
   color: #2e2f42;
+}
+.team-list {
+  background-color: #ffffff;
+}
+
+.name-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.name-text {
+  line-height: 1.5;
+  color: #434455;
+}
+/*footer stylse*/
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo-accent {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
 }
