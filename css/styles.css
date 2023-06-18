@@ -77,7 +77,7 @@ body {
 }
 .hero-btn {
   background-color: var(--Primary-Brand-cl);
-  color: #ffffff;
+  color: var(--White-background-cl);
   font-weight: 500;
   letter-spacing: 0.04em;
   font-size: 16px;
@@ -140,19 +140,11 @@ body {
   line-height: 1.5;
   color: var(--Text-cl);
 }
-/*footer stylse*/
-.footer {
-  background-color: var(--Dark-cl);
-}
 
-.footer-logo-accent {
-  color: var(--Light-cl);
-}
-
-.footer-text {
-  color: #f4f4fd;
-}
 /*portfolio page buttons*/
+.main {
+  background-color: var(--White-background-cl);
+}
 .title {
 }
 .portfolio-filter {
@@ -169,4 +161,21 @@ body {
   color: var(--Primary-Brand-cl);
   text-align: center;
   background-color: var(--light-bg-cl);
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--Pressed-state-cl);
+  color: var(--White-background-cl);
+}
+/*footer stylse*/
+.footer {
+  background-color: var(--Dark-cl);
+}
+
+.footer-logo-accent {
+  color: var(--Light-cl);
+}
+
+.footer-text {
+  color: #f4f4fd;
 }
