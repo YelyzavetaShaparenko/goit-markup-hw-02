@@ -14,6 +14,8 @@ body {
   line-height: 1.5;
   font-weight: normal;
   letter-spacing: 0.02em;
+  color: (var--Text-cl);
+  background-color: var(--White-background-cl);
 }
 .list {
   list-style: none;
@@ -34,15 +36,20 @@ body {
 .logo-accent {
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.1;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
 }
+
 .logo {
   color: var(--Primary-Brand-cl);
 }
 .logo-accent {
   color: var(--Dark-cl);
+}
+.header-address-list {
+  font-style: normal;
 }
 .header-list-link {
   font-weight: 500;
@@ -70,6 +77,8 @@ body {
   font-size: 56px;
   line-height: 1.07;
   color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .btn {
   cursor: pointer;
@@ -98,6 +107,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   color: var(--Dark-cl);
+  letter-spacing: 0.02em;
 }
 .features-text {
   color: var(--Text-cl);
@@ -108,9 +118,10 @@ body {
 }
 .do-title {
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-transform: capitalize;
   color: var(--Dark-cl);
+  text-align: center;
 }
 
 /*Section Our Team styles*/
@@ -121,9 +132,11 @@ body {
 
 .team-title {
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-transform: capitalize;
   color: var(--Dark-cl);
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .team-list {
   background-color: var(--White-background-cl);
@@ -157,7 +170,7 @@ body {
 .portfolio-btn {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--Primary-Brand-cl);
   text-align: center;
@@ -182,6 +195,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 
   color: var(--Dark-cl);
 }
@@ -195,6 +209,8 @@ body {
 
 .footer-logo-accent {
   color: var(--Light-cl);
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.17;
 }
 
 .footer-text {
