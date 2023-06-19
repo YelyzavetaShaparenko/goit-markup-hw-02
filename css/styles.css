@@ -148,6 +148,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   color: var(--Dark-cl);
+  letter-spacing: 0.02em;
 }
 
 .name-text {
