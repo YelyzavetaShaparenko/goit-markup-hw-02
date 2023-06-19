@@ -14,7 +14,7 @@ body {
   line-height: 1.5;
   font-weight: normal;
   letter-spacing: 0.02em;
-  color: (var--Text-cl);
+  color: #434455;
   background-color: var(--White-background-cl);
 }
 .list {
@@ -122,6 +122,7 @@ body {
   text-transform: capitalize;
   color: var(--Dark-cl);
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 /*Section Our Team styles*/
